@@ -163,7 +163,6 @@ for ipair in range (rank,splits,size):
     if (ssta==rsta and snet==rnet):
         fauto=1
     else:
-        continue
         fauto=0
 
     # continue when file is done
